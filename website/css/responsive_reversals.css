@@ -1,0 +1,25 @@
+li.active.reversals > a, li.active.reversals> a:hover{
+	background: #00CFFF !important;
+	color: #333 !important;
+}
+div.reversals, div.reversals> a{
+	background: #00CFFF !important;	
+	color: #333 !important;
+}
+
+
+#sideMenu .bottomBreak{
+  border-bottom:2px solid #00CFFF;
+}
+#sideMenu .topBreak{
+  border-top:2px solid #00CFFF;
+}
+.section{
+  border-bottom:4px solid #00CFFF
+}
+.title1, #maintitle {
+  color: #00CFFF;
+}
+.cc_archive{
+  'border-top:4px solid #00CFFF
+}

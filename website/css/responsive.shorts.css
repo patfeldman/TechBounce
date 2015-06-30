@@ -1,0 +1,24 @@
+li.active.shorts > a, li.active.shorts > a:hover{
+	background: #FA5A5A !important;
+	color: #333 !important;
+}
+div.shorts, div.shorts > a{
+	background: #FA5A5A !important;	
+	color: #333 !important;
+}
+
+#sideMenu .bottomBreak{
+  border-bottom:2px solid #FA5A5A;
+}
+#sideMenu .topBreak{
+  border-top:2px solid #FA5A5A;
+}
+.section{
+  border-bottom:4px solid #FA5A5A
+}
+.title1, #maintitle {
+  color: #FA5A5A;
+}
+.cc_archive{
+  'border-top:4px solid #FA5A5A
+}

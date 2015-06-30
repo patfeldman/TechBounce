@@ -1,0 +1,25 @@
+li.active.history > a, li.active.history> a:hover{
+	background: #F0DE7D !important;
+	color: #333 !important;
+}
+div.history, div.history> a{
+	background: #F0DE7D !important;	
+	color: #333 !important;
+}
+
+#sideMenu .bottomBreak{
+  border-bottom:2px solid #F0DE7D;
+}
+#sideMenu .topBreak{
+  border-top:2px solid #F0DE7D;
+}
+.section{
+  border-bottom:4px solid #F0DE7D
+}
+.title1, #maintitle {
+  color: #F0DE7D;
+}
+.cc_archive{
+  
+  'border-top:4px solid #F0DE7D
+}

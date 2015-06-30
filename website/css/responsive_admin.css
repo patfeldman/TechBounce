@@ -1,0 +1,202 @@
+li.active.admin > a, li.active.admin> a:hover{
+	background: #F0DE7D !important;
+	color: #333 !important;
+}
+div.admin, div.admin> a{
+	background: #F0DE7D !important;	
+	color: #333 !important;
+}
+
+#sideMenu .bottomBreak{
+  border-bottom:2px solid #F0DE7D;
+}
+#sideMenu .topBreak{
+  border-top:2px solid #F0DE7D;
+}
+.section{
+  border-bottom:4px solid #F0DE7D
+}
+.title1, #maintitle {
+  color: #F0DE7D;
+}
+.cc_archive{  
+  border-top:4px solid #F0DE7D
+}
+div.note2{
+	color:black !important;
+	font-size:.6em !important;
+}
+.owned{
+	font-weight:600;
+	color : #05D000;
+}
+
+body#EditAll div.inputGroup .enteredValues{
+	width:80%;
+}
+
+body#EditAll div.inputGroup div.column{
+	float:left;
+	width:21%;
+	text-align:center;
+	margin:5px;
+}
+
+body#EditAll div.inputGroup div.columnGroup{
+	width:100%;
+}
+
+body#EditAll div#InputHeaderGroup {
+	background: #F0DE7D;
+	color: black;
+	font-family: Open Sans;
+	font-size: 1.1em;
+	font-weight: 600;
+}
+body#EditAll div#InputHeaderGroup div.column2, 
+body#EditAll div#InputHeaderGroup div.column3, 
+body#EditAll div#InputHeaderGroup div.column4 
+{
+	margin-top:15px;
+}
+
+body#EditAll div#lockBoxSection{
+	font-weight: 300;
+	font-size: .9em;
+	padding-top: 3px;
+}
+body#EditAll div#lockBoxSection .lockbox{
+	margin-right:4px;
+}
+body#EditAllWatches div.sectionTitle,
+body#EditAll div.sectionTitle {
+	font-family: open sans;
+	font-size: 1.0em;
+	font-weight: 600;
+	padding: 12px;
+	color: black;
+	cursor:pointer;
+}
+body#EditAll div.sectionTitle#HeaderPULLBACKS, 
+div.PULLBACKS, 
+body#EditWatch div.tickerPULLBACKS, 
+body#EditHolding div.tickerPULLBACKS
+{
+	background: #87F06D;
+}
+body#EditAll div.sectionTitle#HeaderREVERSALS,
+div.REVERSALS, 
+body#EditWatch div.tickerREVERSALS,
+body#EditHolding div.tickerREVERSALS
+{
+	background: #00CFFF;
+}
+body#EditAll div.sectionTitle#HeaderBACKDRAFTS,
+div.BACKDRAFTS, 
+body#EditWatch div.tickerBACKDRAFTS,
+body#EditHolding div.tickerBACKDRAFTS
+{
+	background: #FA5A5A;
+}
+body#EditAll div.sectionTitle#HeaderBREAKOUTS, 
+div.BREAKOUTS, 
+body#EditWatch div.tickerBREAKOUTS,
+body#EditHolding div.tickerBREAKOUTS
+{
+	background: #78F1F1;
+}
+body#EditAll div.sectionTitle#HeaderBREAKDOWNS,
+div.BREAKDOWNS, 
+body#EditWatch div.tickerBREAKDOWNS, 
+body#EditHolding div.tickerBREAKDOWNS
+{
+	background: #FF2900;
+}
+body#EditAll div.tablegroup{
+}
+
+body#EditWatch div.editSection, 
+body#EditHolding div.editSection
+{
+	float:left;
+	min-width:220px;
+	text-align:center;
+	width:33%;
+}
+body#EditWatch div#TickerName,
+body#EditHolding div#TickerName
+{
+	font-family: open sans;
+	font-weight: 600;
+	font-size: .8em;
+	background:white;
+	color:black;
+}
+body#EditWatch div#TickerType,
+body#EditHolding div#TickerType
+{
+	font-family: open sans;
+	font-weight: 600;
+	font-size: .6em;
+	color:black;
+}
+
+body#EditWatch div.group div.title,
+body#EditHolding div.group div.title
+{
+	width:180px;
+	margin:auto;
+	margin-top:15px;
+	padding:5px;
+	background:black;
+	color:white;
+}
+body#EditWatch div.group .inputBox,
+body#EditHolding div.group .inputBox
+{
+	width:180px;
+	margin:auto;
+}
+
+body#EditHolding div.group .textBox
+{
+	width:180px;
+	margin:auto;
+	background:#aaaaaa;
+	color:black;
+	font-family: Open Sans;
+	font-size:1.2em;
+	font-weight:600;
+}
+
+body#EditWatch .buttonBottom,
+body#EditHolding .buttonBottom
+{
+	text-align: center;
+	width: 100%;
+	padding: 25px 0;
+}
+
+
+a.buttonLook
+{
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	font-weight: bold;
+	font-family:Open Sans;
+	font-size: 1.0em;
+	margin-top:45px;
+	margin-left: 25px;
+	margin-right : 25px;
+	padding: 7px;
+	background-color: rgb(200,200,200);
+	color:black;
+}
+
+body#EditAll div.editAll {
+	text-align:center;
+	padding-bottom: 14px;
+	padding-top: 14px;
+	border-bottom: 1px solid black;
+}

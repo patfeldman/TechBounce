@@ -1,0 +1,14 @@
+table.openEditTable{
+	text-align:center;
+	font-family: "Josephin Slab";
+	border-collapse: collapse;
+}
+table.openEditTable td{
+	border:1px solid gray;
+}
+
+table.openEditTable th{
+	padding-left:6px;
+	padding-right:6px;
+	border-right:solid 3px black;
+}

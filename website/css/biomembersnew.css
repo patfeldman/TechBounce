@@ -1,0 +1,287 @@
+body.shortList{
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	color: #999;
+	font-size: 12px;
+	background:url(../images/stockred.jpg) no-repeat fixed center top rgb(0, 0, 0)	
+	
+}
+
+
+
+body.shortList #maintitle,
+body.shortList #title1,
+body.shortList .siteLink,
+body.shortList .selected,
+body.shortList .helloName{
+		color: #FA5A5A;
+}	
+
+/* Panel Tab/button */
+.tabNew {
+  	background: url(../images/tabbig_b.png) repeat-x 0 0;
+	height: 65px;
+	position: fixed;
+    top: 0;
+    z-index: 999;
+	width:100%;
+}
+
+
+.tabNew span.login {
+	display: inline-block;
+	position: relative;
+  	height: 65px;
+	margin:0 auto;
+  	font-weight: bold;
+  	color: white;
+  	font-size: 80%;
+}
+
+.tabNew span.login div.left {
+  	background: url(../images/tabbig_l.png) no-repeat left 0;
+  	height: 65px;
+	width: 30px;
+	padding: 0;
+	margin: 0;
+  	display: block;
+	float: left;
+}
+
+.tabNew span.login div.right {
+  	background: url(../images/tabbig_r.png) no-repeat left 0;
+  	height: 65px;
+	width: 30px;
+	padding: 0;
+	margin: 0;
+  	display: block;
+	float: left;
+}
+
+.tabNew span.login .item {
+ 	text-align: left;
+  	padding: 0;
+	display: block;
+	float: left;
+	height: 65px;
+  	background: url(../images/tabbig_m.png) repeat-x 0 0;
+}
+.tabNew span.login ul li {
+ 	text-align: left;
+	display: block;
+	float: left;
+}
+
+.tabNew span.login span.mainNav{
+	text-align:center;
+	font-size:16px;
+	display:inline-block;
+	margin-top: 2px;
+	margin-bottom: 3px;
+}
+
+.tabNew span.login .subNav{
+	display:inline-block;
+	margin-top:-4px;
+	border:2px solid #505050;
+	background-color:#444444;
+}
+
+.tabNew span.login .subNav a{
+}
+
+.tabNew span.login .subNav li{
+	text-align:center;
+}
+
+.tabNew ul.login li a {
+}
+
+.tabNew ul.login li a:hover {
+}
+
+.tabNew .navigator{
+	font-family: Della Respira;
+	margin : 0 37px;
+	color: #ccc;
+	font-size:20px;
+}
+
+.tabNew .navigator2{
+	font-family: Radley, Arial;
+	margin : 0 23px;
+	color: #ddd;
+	font-weight:normal;
+	font-size:18px;
+	text-decoration:underline;
+}
+body#accountPage .tabNew .navigator2{
+	margin : 0 36px;
+}
+body#accountPage .note{
+	line-height:100%;
+	margin-top: 15px;
+}
+
+.tabNew .navigatorAdmin{
+	font-family: Radley, Arial;
+	margin : 0 10px;
+	color: #ddd;
+	font-weight:normal;
+	font-size:18px;
+	text-decoration:underline;
+}
+
+.tabNew .selected{
+	text-transform:capitalize;	
+	text-decoration:none;
+	color: #8EBF9C;
+	border-bottom-color:#333;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+}
+
+.siteLink{
+	padding:0px;
+}
+
+
+.tabNew .account{
+	font-family: Radley, Arial;
+	color: #ddd;
+	font-weight:normal;
+	font-size:16px;	
+}
+
+.tabNew .account a{
+	color:#ddd;
+	text-align:right;
+}
+.tabNew .account a:visited{
+	color:#8EBF9C;
+}
+.tabNew span.login div.menu{
+	padding:0px 25px;
+}
+.helloName{
+	padding-top: 6px;
+	padding-left:6px;
+	color:#8EBF9C;
+}
+
+.logoutDiv{
+	text-align:center;
+	font-size:12px;	
+	text-decoration:underline;
+}
+
+	.tablegroup{
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+		background-color:white;
+	}
+
+input.malleable {
+	float:left;
+	width: 99%;
+	margin-bottom:5px;
+}
+
+.referralMessage {
+	float:left;
+	width: 100%;
+	height: 200px;
+}
+
+div.referralLeft {
+	width: 40%;
+	float:left;
+	text-align: center;
+	margin-top: 17px;
+}
+
+div.referralRight {
+	width: 55%;
+	margin-top:10px;
+	float: right;
+	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	border-radius: 22px;
+	border: solid 1px #222222;
+	padding : 5px;
+	padding-bottom:15px;
+	background: #fffff3;
+	
+}
+
+div.referralEmailSection {
+	width: 350px;
+	margin: auto;
+}
+
+div.referralItem{
+	float:left;
+	width:49%;
+}
+div.referralItem2{
+	margin:auto;
+	width:49%;
+}
+
+div.description {
+	font-size: .9em;
+	line-height:110%;
+	padding-left:5px; 
+	padding-right:5px;
+}
+div.moneyHighlight {
+	font-size: 1.4em;
+	color: #065003;
+}
+
+button#email-send {
+	width: 100px;
+	height: 35px;
+	margin-top: 10px;
+}
+
+.clearer { clear: both; }
+.btnWrapper{
+	width:100%;
+	margin:auto;
+	text-align:center;
+}
+
+
+.referralTitle{
+	text-align:center;
+	width:100%;
+	font-family: Della Respira;
+	font-size: 1.2em;
+	color: #065003;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	text-decoration:underline;	
+}
+a.referralLink{
+	text-decoration:underline;
+}
+div.referrals {
+	border-top: 3px solid #333333;
+	margin: 15px;
+}
+div.referralInfo {
+	width:100%;
+}
+
+div.referralData {
+	float: left;
+	width: 25%;
+	text-align:center;
+}
+
+div.referralHeader{
+	font-size: 0.9em;
+	text-decoration: underline;
+	font-variant: small-caps;
+}

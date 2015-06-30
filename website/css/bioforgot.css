@@ -1,0 +1,76 @@
+	.leftchange{
+		width:49%;
+		float:left;
+		text-align: center;
+		border-right: 1px solid black; 
+	}
+
+	.rightchange{
+		width:50%;
+		float:left;
+		text-align: center;
+	}
+	.n0{
+		min-height:300px;
+	}
+	.white{
+		background-color: white;
+		height:140px;
+	}
+
+h1 {
+	color:black;
+	font-family:'Radley', 'Josefin Slab', serif;
+	margin: 10px;
+
+}
+
+.grey{
+	color:black;
+}
+input.bt_forgot,
+input.bt_change{
+	height: 24px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	font-weight: bold;
+	margin: 15px 0;
+	margin-top: 20px;
+}
+
+input.bt_forgot {
+	width: 140px;
+}
+
+input.bt_change {
+	width: 194px;
+}
+#homelink{
+	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#homelink a{
+	font-family:'Radley', 'Josefin Slab', serif;
+	font-size: 32px;
+	color: #00cfff;
+	text-decoration:underline;
+}
+
+#homelink a:visited{
+	color: #00cfff;
+}
+#homelink a:hover {
+	color: white;
+}
+
+.gone{
+display:none;
+}
+.errorMessage{
+	color: red;
+	font-weight:bold;
+}
+

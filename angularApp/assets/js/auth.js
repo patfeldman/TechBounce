@@ -18,56 +18,6 @@
                     }
                 }
             })
-            .state('captainChat', {
-                url:'/captainChat',
-                title: 'Captain Chat', 
-                views: {
-                    '': {
-                        templateUrl: 'app/components/home/home.view.html',
-                        controller:'HomeController', 
-                        controllerAs: 'vm'
-                    }, 
-                    'topMenu@captainChat':{
-                        templateUrl: 'app/components/menus/menu_main/menu_main_top.view.html',
-                        controller:'MenuMainTopController', 
-                        controllerAs: 'vm'                        
-                    }
-                }
-            })
-            .state('groupChat', {
-                url:'/groupChat',
-                title: 'Group Chat', 
-                views: {
-                    '': {
-                        templateUrl: 'app/components/home/home.view.html',
-                        controller:'HomeController', 
-                        controllerAs: 'vm'
-                    }, 
-                    'topMenu@groupChat':{
-                        templateUrl: 'app/components/menus/menu_main/menu_main_top.view.html',
-                        controller:'MenuMainTopController', 
-                        controllerAs: 'vm'                        
-                    }
-                }
-            })
-
-            .state('privateChat', {
-                url:'/privateChat',
-                title: 'Private Chat', 
-                views: {
-                    '': {
-                        templateUrl: 'app/components/home/home.view.html',
-                        controller:'HomeController', 
-                        controllerAs: 'vm'
-                    }, 
-                    'topMenu@privateChat':{
-                        templateUrl: 'app/components/menus/menu_main/menu_main_top.view.html',
-                        controller:'MenuMainTopController', 
-                        controllerAs: 'vm'                        
-                    }
-                }
-            })
-
             .state('home', {
                 url:'/home',
                 title: 'anchor U', 

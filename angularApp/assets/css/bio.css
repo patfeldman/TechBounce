@@ -1,0 +1,50 @@
+html,body{
+    height:100%;
+    font-family: 'Open Sans';
+    color: #404040 ;
+}
+
+body {
+    background-color: #F16745;
+}
+
+/* color theme
+ #F16745
+ #FFC65D
+ #7BC8A4
+ #4CC3D9
+ #93648D
+ #404040
+*/
+.tb-allheight{
+    min-height:100%;
+    height:100%;
+}
+h2{
+	margin-top :10px;
+}
+#TopMenuGroup{
+    top:0;
+    left:0;
+    position:fixed;
+    height:8%;
+}
+#BottomMenuGroup{
+    bottom:0;
+    left:0;
+    position:fixed;
+    height:8%;
+}
+#TopMenuGroup,
+#BottomMenuGroup{
+    background-color:#404040;
+    color : #F16745;
+    z-index: 100;
+}
+
+#PageContent{
+	padding: 10px;
+	padding-top: 9%;
+	padding-bottom: 8%;
+	background-color: white;
+}

@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "cron"
+		},
+		{
+			"path": "website"
+		},
+		{
+			"path": "angularApp"
+		}
+	]
+}
